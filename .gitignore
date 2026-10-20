@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 密钥与环境变量
+.env
+.env.*
+*.key
+secrets.json
+
+# 数据与模型权重
+data/
+datasets/
+*.ckpt
+*.pt
+*.pth
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 实验输出
+runs/
+*.log
